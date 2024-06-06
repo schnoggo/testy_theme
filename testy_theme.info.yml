@@ -4,6 +4,7 @@ description: "Fancy Mcfancy theme"
 'base theme': stable9
 starterkit: true
 version: VERSION
+screenshot: testy_theme.png
 libraries:
   - testy_theme/base
   - testy_theme/messages
