@@ -1,0 +1,23 @@
+name: 'Testy McTestFace Stable'
+type: theme
+description: "Fancy Mcfancy theme"
+'base theme': stable9
+starterkit: true
+version: VERSION
+libraries:
+  - testy_theme/base
+  - testy_theme/messages
+  - core/normalize
+libraries-extend:
+  user/drupal.user:
+    - testy_theme/user
+  core/drupal.dropbutton:
+    - testy_theme/dropbutton
+  core/drupal.dialog:
+    - testy_theme/dialog
+  file/drupal.file:
+    - testy_theme/file
+  core/drupal.progress:
+    - testy_theme/progress
+core_version_requirement: ^10
+generator: 'starterkit_theme:10.2.6'
