@@ -1,6 +1,6 @@
 name: 'Testy McTestFace Stable New'
 type: theme
-description: "Fancy Mcfancy theme"
+description: "Fancy Mcfancy theme which has been renamed"
 'base theme': stable9
 starterkit: true
 version: VERSION
@@ -13,19 +13,19 @@ regions:
   page_top: Page top
   page_bottom: Page bottom
 libraries:
-  - testy_theme/base
-  - testy_theme/messages
+  - testy_theme_new/base
+  - testy_theme_new/messages
   - core/normalize
 libraries-extend:
   user/drupal.user:
-    - testy_theme/user
+    - testy_theme_new/user
   core/drupal.dropbutton:
-    - testy_theme/dropbutton
+    - testy_theme_new/dropbutton
   core/drupal.dialog:
-    - testy_theme/dialog
+    - testy_theme_new/dialog
   file/drupal.file:
-    - testy_theme/file
+    - testy_theme_new/file
   core/drupal.progress:
-    - testy_theme/progress
+    - testy_theme_new/progress
 core_version_requirement: ^10
 generator: 'starterkit_theme:10.2.6'
