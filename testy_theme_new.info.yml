@@ -4,7 +4,7 @@ description: "Fancy Mcfancy theme"
 'base theme': stable9
 starterkit: true
 version: VERSION
-screenshot: testy_theme.png
+screenshot: testy_theme_new.png
 regions:
   header: Header
   mc_menu: Navigation
