@@ -1,10 +1,17 @@
-name: 'Testy McTestFace Stable'
+name: 'Testy McTestFace Stable New'
 type: theme
 description: "Fancy Mcfancy theme"
 'base theme': stable9
 starterkit: true
 version: VERSION
 screenshot: testy_theme.png
+regions:
+  header: Header
+  mc_menu: Navigation
+  content: Content
+  footer: Footer
+  page_top: Page top
+  page_bottom: Page bottom
 libraries:
   - testy_theme/base
   - testy_theme/messages
