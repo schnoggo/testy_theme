@@ -1,0 +1,21 @@
+testy_theme_new.small:
+  label: small
+  mediaQuery: ''
+  weight: 0
+  multipliers:
+    - 1x
+    - 2x
+testy_theme_new.medium:
+  label: medium
+  mediaQuery: '(min-width:768px) and (max-width:1399px)'
+  weight: 1
+  multipliers:
+    - 1x
+    - 2x
+testy_theme_new.large:
+  label: large
+  mediaQuery: '(min-width:1400px)'
+  weight: 2
+  multipliers:
+    - 1x
+    - 2x
